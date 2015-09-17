@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "470C3729E2A61EE413104362"
+               BlueprintIdentifier = "83AF5AB7BBEA64EC64B77048"
                BuildableName = "TDCore.bundle"
                BlueprintName = "Pods-TDTheme-TDCore-TDCore"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -17,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     ViewCustom *newview = (ViewCustom *)[self td_getViewFromXib:@"ViewCustom" index:0];
     [newview td_configureTheme];
     [[TDThemeManagement td_sharedInstance] td_addDelegate:(id)newview];
@@ -33,14 +32,13 @@
 {
     
     
-    
     if(td_isTheme(@"red"))
     {
-        [self.view viewWithTag:1].backgroundColor =[UIColor redColor];
+        [self.view viewWithTag:1].backgroundColor = [UIColor redColor];
     }
     else
     {
-        [self.view viewWithTag:1].backgroundColor =[UIColor greenColor];
+        [self.view viewWithTag:1].backgroundColor = [UIColor greenColor];
     }
 }
 

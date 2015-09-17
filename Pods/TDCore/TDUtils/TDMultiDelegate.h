@@ -26,4 +26,10 @@
 - (void)td_removeAllDelegates;
 - (void)td_respondsToSelector:(SEL)selector;
 
+
++ (void)td_addDelegate:(id)delegate;
++ (void)td_removeDelegate:(id)delegate;
++ (void)td_removeAllDelegates;
++ (void)td_respondsToSelector:(SEL)selector;
+
 @end

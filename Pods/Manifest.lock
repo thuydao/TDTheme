@@ -1,22 +1,22 @@
 PODS:
-  - TDCore (1.1.8):
-    - TDCore/TableViewDragLoad (= 1.1.8)
-    - TDCore/TDCategory (= 1.1.8)
-    - TDCore/TDEngineLog (= 1.1.8)
-    - TDCore/TDEvent (= 1.1.8)
-    - TDCore/TDPopup (= 1.1.8)
-    - TDCore/TDUtils (= 1.1.8)
-  - TDCore/TableViewDragLoad (1.1.8)
-  - TDCore/TDCategory (1.1.8)
-  - TDCore/TDEngineLog (1.1.8)
-  - TDCore/TDEvent (1.1.8)
-  - TDCore/TDPopup (1.1.8)
-  - TDCore/TDUtils (1.1.8)
+  - TDCore (1.1.10):
+    - TDCore/TableViewDragLoad (= 1.1.10)
+    - TDCore/TDCategory (= 1.1.10)
+    - TDCore/TDEngineLog (= 1.1.10)
+    - TDCore/TDEvent (= 1.1.10)
+    - TDCore/TDPopup (= 1.1.10)
+    - TDCore/TDUtils (= 1.1.10)
+  - TDCore/TableViewDragLoad (1.1.10)
+  - TDCore/TDCategory (1.1.10)
+  - TDCore/TDEngineLog (1.1.10)
+  - TDCore/TDEvent (1.1.10)
+  - TDCore/TDPopup (1.1.10)
+  - TDCore/TDUtils (1.1.10)
 
 DEPENDENCIES:
   - TDCore
 
 SPEC CHECKSUMS:
-  TDCore: 56fa7b0dc72063992b9a9209df9ad5886fc16d7b
+  TDCore: 9a10087f0821d706cd42418b52e67913609888f8
 
 COCOAPODS: 0.36.4

@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		991873511B7F6BBC00277D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 991873501B7F6BBC00277D18 /* main.m */; };
+		9918735F1B7F6BBE00277D18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9918735E1B7F6BBE00277D18 /* Images.xcassets */; };
+		991873621B7F6BBE00277D18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991873601B7F6BBE00277D18 /* LaunchScreen.xib */; };
+		9918736E1B7F6BC000277D18 /* TDThemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9918736D1B7F6BC000277D18 /* TDThemeTests.m */; };
+		9918738C1B7F6C4A00277D18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 991873791B7F6C4900277D18 /* AppDelegate.m */; };
+		9918738D1B7F6C4A00277D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991873801B7F6C4900277D18 /* Main.storyboard */; };
+		9918738E1B7F6C4A00277D18 /* TDTheme.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 991873851B7F6C4A00277D18 /* TDTheme.xcdatamodeld */; };
+		9918738F1B7F6C4A00277D18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9918738B1B7F6C4A00277D18 /* ViewController.m */; };
+		9976B0C61BAA713000BAB24F /* ViewCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 9976B0C51BAA713000BAB24F /* ViewCustom.m */; };
+		9976B0C81BAA714200BAB24F /* ViewCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9976B0C71BAA714200BAB24F /* ViewCustom.xib */; };
+		C68D34F055150AB226E88D54 /* libPods-TDTheme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 224AE3CEAF24A33C9FF470A5 /* libPods-TDTheme.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		991873681B7F6BBF00277D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991873431B7F6BBB00277D18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9918734A1B7F6BBB00277D18;
+			remoteInfo = TDTheme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003043FBD97D47887488689B /* Pods-TDTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTheme.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDTheme/Pods-TDTheme.release.xcconfig"; sourceTree = "<group>"; };
+		224AE3CEAF24A33C9FF470A5 /* libPods-TDTheme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TDTheme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		873CEC836CEEBC7B25E5EEAF /* Pods-TDTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDTheme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDTheme/Pods-TDTheme.debug.xcconfig"; sourceTree = "<group>"; };
+		9918734B1B7F6BBB00277D18 /* TDTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9918734F1B7F6BBB00277D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991873501B7F6BBC00277D18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9918735E1B7F6BBE00277D18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		991873611B7F6BBE00277D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		991873671B7F6BBF00277D18 /* TDThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9918736C1B7F6BBF00277D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9918736D1B7F6BC000277D18 /* TDThemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDThemeTests.m; sourceTree = "<group>"; };
+		991873781B7F6C4900277D18 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		991873791B7F6C4900277D18 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		991873801B7F6C4900277D18 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		991873861B7F6C4A00277D18 /* TDTheme.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TDTheme.xcdatamodel; sourceTree = "<group>"; };
+		9918738A1B7F6C4A00277D18 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9918738B1B7F6C4A00277D18 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		991873901B7F760E00277D18 /* TDTheme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TDTheme-Prefix.pch"; sourceTree = "<group>"; };
+		9976B0C41BAA713000BAB24F /* ViewCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCustom.h; sourceTree = "<group>"; };
+		9976B0C51BAA713000BAB24F /* ViewCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCustom.m; sourceTree = "<group>"; };
+		9976B0C71BAA714200BAB24F /* ViewCustom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewCustom.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991873481B7F6BBB00277D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68D34F055150AB226E88D54 /* libPods-TDTheme.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991873641B7F6BBF00277D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FF36FC2B545C882927D4595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				224AE3CEAF24A33C9FF470A5 /* libPods-TDTheme.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		728083AFFA3B32D331B8C181 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				873CEC836CEEBC7B25E5EEAF /* Pods-TDTheme.debug.xcconfig */,
+				003043FBD97D47887488689B /* Pods-TDTheme.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		991873421B7F6BBB00277D18 = {
+			isa = PBXGroup;
+			children = (
+				9918734D1B7F6BBB00277D18 /* TDTheme */,
+				9918736A1B7F6BBF00277D18 /* TDThemeTests */,
+				9918734C1B7F6BBB00277D18 /* Products */,
+				728083AFFA3B32D331B8C181 /* Pods */,
+				4FF36FC2B545C882927D4595 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9918734C1B7F6BBB00277D18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9918734B1B7F6BBB00277D18 /* TDTheme.app */,
+				991873671B7F6BBF00277D18 /* TDThemeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9918734D1B7F6BBB00277D18 /* TDTheme */ = {
+			isa = PBXGroup;
+			children = (
+				991873771B7F6C4900277D18 /* 00-Apps */,
+				9918737A1B7F6C4900277D18 /* 01-Libs */,
+				9918737B1B7F6C4900277D18 /* 02-Helpers */,
+				9918737C1B7F6C4900277D18 /* 03-Models */,
+				9918737D1B7F6C4900277D18 /* 04-Resources */,
+				991873881B7F6C4A00277D18 /* 05-ViewControllers */,
+				9918735E1B7F6BBE00277D18 /* Images.xcassets */,
+				991873601B7F6BBE00277D18 /* LaunchScreen.xib */,
+				9918734E1B7F6BBB00277D18 /* Supporting Files */,
+			);
+			path = TDTheme;
+			sourceTree = "<group>";
+		};
+		9918734E1B7F6BBB00277D18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9918734F1B7F6BBB00277D18 /* Info.plist */,
+				991873501B7F6BBC00277D18 /* main.m */,
+				991873901B7F760E00277D18 /* TDTheme-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9918736A1B7F6BBF00277D18 /* TDThemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9918736D1B7F6BC000277D18 /* TDThemeTests.m */,
+				9918736B1B7F6BBF00277D18 /* Supporting Files */,
+			);
+			path = TDThemeTests;
+			sourceTree = "<group>";
+		};
+		9918736B1B7F6BBF00277D18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9918736C1B7F6BBF00277D18 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		991873771B7F6C4900277D18 /* 00-Apps */ = {
+			isa = PBXGroup;
+			children = (
+				991873781B7F6C4900277D18 /* AppDelegate.h */,
+				991873791B7F6C4900277D18 /* AppDelegate.m */,
+			);
+			path = "00-Apps";
+			sourceTree = "<group>";
+		};
+		9918737A1B7F6C4900277D18 /* 01-Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "01-Libs";
+			sourceTree = "<group>";
+		};
+		9918737B1B7F6C4900277D18 /* 02-Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "02-Helpers";
+			sourceTree = "<group>";
+		};
+		9918737C1B7F6C4900277D18 /* 03-Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "03-Models";
+			sourceTree = "<group>";
+		};
+		9918737D1B7F6C4900277D18 /* 04-Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9918737E1B7F6C4900277D18 /* 00-Assets */,
+				9918737F1B7F6C4900277D18 /* 01-StoryBoards */,
+				991873811B7F6C4900277D18 /* 02-Fonts */,
+				991873821B7F6C4900277D18 /* 03-HTMLs */,
+				991873831B7F6C4900277D18 /* 04-CSSs */,
+				991873841B7F6C4900277D18 /* 05-Databases */,
+				991873871B7F6C4A00277D18 /* 06-PlistFiles */,
+			);
+			path = "04-Resources";
+			sourceTree = "<group>";
+		};
+		9918737E1B7F6C4900277D18 /* 00-Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "00-Assets";
+			sourceTree = "<group>";
+		};
+		9918737F1B7F6C4900277D18 /* 01-StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				991873801B7F6C4900277D18 /* Main.storyboard */,
+			);
+			path = "01-StoryBoards";
+			sourceTree = "<group>";
+		};
+		991873811B7F6C4900277D18 /* 02-Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "02-Fonts";
+			sourceTree = "<group>";
+		};
+		991873821B7F6C4900277D18 /* 03-HTMLs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "03-HTMLs";
+			sourceTree = "<group>";
+		};
+		991873831B7F6C4900277D18 /* 04-CSSs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "04-CSSs";
+			sourceTree = "<group>";
+		};
+		991873841B7F6C4900277D18 /* 05-Databases */ = {
+			isa = PBXGroup;
+			children = (
+				991873851B7F6C4A00277D18 /* TDTheme.xcdatamodeld */,
+			);
+			path = "05-Databases";
+			sourceTree = "<group>";
+		};
+		991873871B7F6C4A00277D18 /* 06-PlistFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "06-PlistFiles";
+			sourceTree = "<group>";
+		};
+		991873881B7F6C4A00277D18 /* 05-ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				991873891B7F6C4A00277D18 /* 00-ViewController */,
+			);
+			path = "05-ViewControllers";
+			sourceTree = "<group>";
+		};
+		991873891B7F6C4A00277D18 /* 00-ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9918738A1B7F6C4A00277D18 /* ViewController.h */,
+				9918738B1B7F6C4A00277D18 /* ViewController.m */,
+				9976B0C41BAA713000BAB24F /* ViewCustom.h */,
+				9976B0C51BAA713000BAB24F /* ViewCustom.m */,
+				9976B0C71BAA714200BAB24F /* ViewCustom.xib */,
+			);
+			path = "00-ViewController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9918734A1B7F6BBB00277D18 /* TDTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991873711B7F6BC000277D18 /* Build configuration list for PBXNativeTarget "TDTheme" */;
+			buildPhases = (
+				7F24F427B36535FCEDF97F30 /* Check Pods Manifest.lock */,
+				991873471B7F6BBB00277D18 /* Sources */,
+				991873481B7F6BBB00277D18 /* Frameworks */,
+				991873491B7F6BBB00277D18 /* Resources */,
+				32FC52322580C4CA951750AC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDTheme;
+			productName = TDTheme;
+			productReference = 9918734B1B7F6BBB00277D18 /* TDTheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		991873661B7F6BBF00277D18 /* TDThemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991873741B7F6BC000277D18 /* Build configuration list for PBXNativeTarget "TDThemeTests" */;
+			buildPhases = (
+				991873631B7F6BBF00277D18 /* Sources */,
+				991873641B7F6BBF00277D18 /* Frameworks */,
+				991873651B7F6BBF00277D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991873691B7F6BBF00277D18 /* PBXTargetDependency */,
+			);
+			name = TDThemeTests;
+			productName = TDThemeTests;
+			productReference = 991873671B7F6BBF00277D18 /* TDThemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		991873431B7F6BBB00277D18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Moboco;
+				TargetAttributes = {
+					9918734A1B7F6BBB00277D18 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					991873661B7F6BBF00277D18 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 9918734A1B7F6BBB00277D18;
+					};
+				};
+			};
+			buildConfigurationList = 991873461B7F6BBB00277D18 /* Build configuration list for PBXProject "TDTheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 991873421B7F6BBB00277D18;
+			productRefGroup = 9918734C1B7F6BBB00277D18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9918734A1B7F6BBB00277D18 /* TDTheme */,
+				991873661B7F6BBF00277D18 /* TDThemeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991873491B7F6BBB00277D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9918738D1B7F6C4A00277D18 /* Main.storyboard in Resources */,
+				9976B0C81BAA714200BAB24F /* ViewCustom.xib in Resources */,
+				991873621B7F6BBE00277D18 /* LaunchScreen.xib in Resources */,
+				9918735F1B7F6BBE00277D18 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991873651B7F6BBF00277D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32FC52322580C4CA951750AC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TDTheme/Pods-TDTheme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F24F427B36535FCEDF97F30 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991873471B7F6BBB00277D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9918738C1B7F6C4A00277D18 /* AppDelegate.m in Sources */,
+				991873511B7F6BBC00277D18 /* main.m in Sources */,
+				9976B0C61BAA713000BAB24F /* ViewCustom.m in Sources */,
+				9918738F1B7F6C4A00277D18 /* ViewController.m in Sources */,
+				9918738E1B7F6C4A00277D18 /* TDTheme.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991873631B7F6BBF00277D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9918736E1B7F6BC000277D18 /* TDThemeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991873691B7F6BBF00277D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9918734A1B7F6BBB00277D18 /* TDTheme */;
+			targetProxy = 991873681B7F6BBF00277D18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		991873601B7F6BBE00277D18 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991873611B7F6BBE00277D18 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9918736F1B7F6BC000277D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		991873701B7F6BC000277D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991873721B7F6BC000277D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 873CEC836CEEBC7B25E5EEAF /* Pods-TDTheme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/TDTheme/3rds";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDTheme/TDTheme-Prefix.pch";
+				INFOPLIST_FILE = TDTheme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		991873731B7F6BC000277D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003043FBD97D47887488689B /* Pods-TDTheme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/TDTheme/3rds";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TDTheme/TDTheme-Prefix.pch";
+				INFOPLIST_FILE = TDTheme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		991873751B7F6BC000277D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TDThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDTheme.app/TDTheme";
+			};
+			name = Debug;
+		};
+		991873761B7F6BC000277D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TDThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDTheme.app/TDTheme";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991873461B7F6BBB00277D18 /* Build configuration list for PBXProject "TDTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9918736F1B7F6BC000277D18 /* Debug */,
+				991873701B7F6BC000277D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991873711B7F6BC000277D18 /* Build configuration list for PBXNativeTarget "TDTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991873721B7F6BC000277D18 /* Debug */,
+				991873731B7F6BC000277D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991873741B7F6BC000277D18 /* Build configuration list for PBXNativeTarget "TDThemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991873751B7F6BC000277D18 /* Debug */,
+				991873761B7F6BC000277D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		991873851B7F6C4A00277D18 /* TDTheme.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				991873861B7F6C4A00277D18 /* TDTheme.xcdatamodel */,
+			);
+			currentVersion = 991873861B7F6C4A00277D18 /* TDTheme.xcdatamodel */;
+			path = TDTheme.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 991873431B7F6BBB00277D18 /* Project object */;
+}

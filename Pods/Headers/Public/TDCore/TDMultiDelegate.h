@@ -1,0 +1,1 @@
+../../../TDCore/TDUtils/TDMultiDelegate.h
